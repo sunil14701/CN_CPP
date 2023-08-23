@@ -3,10 +3,11 @@ using namespace std;
 
 int main(){
     int a = 10;
-    int b;
-    if(a > 15){
-        int a = 10;
+    while(a > 5){
+        int a = 1;
+        cout << a << " ";
+        a--;
     }
-    cout << b << endl;
+    cout << a << endl;
     return 0;
 }
